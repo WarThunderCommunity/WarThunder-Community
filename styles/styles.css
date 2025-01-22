@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #121212;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+header .nav-link {
+    transition: color 0.3s;
+}
+header .nav-link:hover {
+    color: #00bfff;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    text-align: center;
+    color: white;
+}
+.hero .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+}
+.hero .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Features Section */
+#features {
+    background-color: #f9f9f9;
+    padding: 4rem 0;
+}
+#features h2 {
+    color: #007bff;
+    margin-bottom: 2rem;
+}
+#features i {
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+/* Download Section */
+#download {
+    background-color: #007bff;
+    padding: 4rem 0;
+}
+#download h2 {
+    margin-bottom: 1rem;
+}
+#download .btn {
+    border: 2px solid white;
+    transition: background-color 0.3s, color 0.3s;
+}
+#download .btn:hover {
+    background-color: white;
+    color: #007bff;
+}
+
+/* Footer Section */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    background-color: #121212;
+}
